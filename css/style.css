@@ -144,6 +144,26 @@ body {
   box-shadow: 0 3px 0 #000;
 }
 
+/* Couleurs de survol spécifiques par lien (sans changer le HTML) */
+.cta[href*="developper.html"]:hover,
+.cta[href*="developper.html"]:focus-visible {
+  background: #6FAC46;
+  color: #fff;
+}
+
+.cta[href*="entreprendre.html"]:hover,
+.cta[href*="entreprendre.html"]:focus-visible {
+  background: #001792;
+  color: #fff;
+}
+
+.cta[href*="metier.html"]:hover,
+.cta[href*="metier.html"]:focus-visible {
+  background: #FF85FF;
+  color: #000; /* meilleur contraste sur le rose */
+}
+
+
 /* =========================================================
    PAGE INTERNE (Développer, Entreprendre, Métier)
    ========================================================= */
