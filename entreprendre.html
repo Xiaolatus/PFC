@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Entreprendre — Portefeuille</title>
+  <link rel="icon" href="img/logo.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      <nav>
+        <a href="index.html#home">Accueil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page">
+    <h1 class="page-tag">Entreprendre</h1>
+    <div id="cards"></div>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <img class="mascot" src="img/avatar.png" alt="" aria-hidden="true">
+      <small>© 2025 Angeline YANG — Tous droits réservés</small>
+    </div>
+  </footer>
+
+   <!-- Modale -->
+<div id="modal" hidden>
+  <div class="modal-box">
+    <span class="close" data-close>&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-projet" class="muted"></p>
+    <img id="modal-logo" alt="">
+    <div id="modal-sections"></div> 
+  </div>
+</div>
+
+  <script src="js/common.js"></script>
+  <script src="js/entreprendre.js"></script>
+</body>
+</html>
